@@ -1,5 +1,5 @@
 import REACT from "react";
-import headshot from '../headshot.jpg'
+import headshot from '../images/headshot.jpg'
 
 const Header = () => {
     return(

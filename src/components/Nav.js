@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "../logo.png"
 
-const Nav = () => {
-    const tabs = ['ABOUT', 'MY WORK', 'CONTACT']
+function Nav(props) {
+    const tabs = ['ABOUT', 'WORKS', 'CONTACT']
     return (
     <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
@@ -12,15 +12,11 @@ const Nav = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">ABOUT <span className="sr-only">(current)</span></a>
+                    {tabs.map (tab => (
+                    <li key ={tab} className="nav-item">
+                        <a className="nav-link" href={`#${tab.toLowerCase()}`} onClick={() => props.handlePageChange(tab)}>{tab}<span className="sr-only">(current)</span></a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">MY WORK</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">CONTACT</a>
-                    </li>
+                    ))}
                 </ul>
             </div>
         </div>
