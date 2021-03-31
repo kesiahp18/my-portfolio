@@ -5,6 +5,7 @@ body {
 }
 
 .title {
+  margin-top: 3rem;
   color: #1D262A;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -65,3 +66,30 @@ nav a.nav-link {
 }
 
 /* Contact */
+
+/**/
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.contact {
+  margin-top: 5rem;
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.contact-method {
+  margin: 30px;
+}
+
+.contact-link {
+  background-color: #b3cde0;
+  padding: .5rem;
+  border-radius: .5rem;
+  color: #1D262A;
+}
