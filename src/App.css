@@ -4,6 +4,11 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.title {
+  color: #1D262A;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .logo {
   width: 16.25rem;
 }
@@ -28,11 +33,11 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid black;
+  border-top: 0.1875rem solid #1D262A;
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid black;
+  border-top: 0.1875rem solid #1D262A;
 }
 
 /* About */
@@ -49,11 +54,6 @@ nav a.nav-link {
   text-align: center;
 }
 
-.main-info h1 {
-  color: #1D262A;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 .main-info p {
   margin: 20px
 }
@@ -63,3 +63,5 @@ nav a.nav-link {
 .carousel-control-prev, .carousel-control-next {
   background-color: #b3cde0;
 }
+
+/* Contact */
