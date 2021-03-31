@@ -1,7 +1,7 @@
-import REACT from "react";
 import headshot from '../images/headshot.jpg'
+import { React } from "react";
 
-const Header = () => {
+const About = () => {
     return(
         <div className="header-wrapper">
             <div className="main-info">
@@ -13,4 +13,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default About;
