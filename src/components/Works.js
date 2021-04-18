@@ -34,8 +34,9 @@ const Works = () => {
                     <img className="d-block w-100" src={photo3} alt="Third slide"/>
                 </a>
                 <div class="carousel-caption">
-                    <h5>Code Quiz</h5>
-                    <p><a href="https://github.com/kesiahp18/code-quiz" className="carousel-button" target="_blank">View GitHub Repository</a></p>
+                    <h5>My Movie Queue</h5>
+                    <p><a href="https://github.com/kesiahp18/my-movie-queue/tree/master" className="carousel-button" target="_blank">View GitHub Repository</a></p>
+                    <p><a href="https://glacial-headland-73425.herokuapp.com/" className="carousel-button" target="_blank">View Deployed Application</a></p>
                 </div>
             </div>
             <div className="carousel-item">
