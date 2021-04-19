@@ -30,7 +30,7 @@ const Works = () => {
                 </div>
             </div>
             <div className="carousel-item">
-                <a href="https://kesiahp18.github.io/code-quiz/" target="_blank">
+                <a href="https://glacial-headland-73425.herokuapp.com/" target="_blank">
                     <img className="d-block w-100" src={photo3} alt="Third slide"/>
                 </a>
                 <div class="carousel-caption">
