@@ -1,4 +1,4 @@
-# React Portfolio
+# My Portfolio
 A webpage that displays information about me, some of my works, and ways to contact me.
 
 ## Built With
