@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
+html {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -19,6 +22,10 @@ body {
 
 nav {
   background-color: #b3cde0;
+}
+
+.navbar {
+  width: 100vw;
 }
 
 nav a.nav-link {
@@ -97,10 +104,11 @@ nav a.nav-link {
   text-align: center;
   display: flex;
   list-style-type: none;
+  padding: 0;
 }
 
 .contact-method {
-  margin: 30px;
+  margin: .75rem;
 }
 
 .contact-link {
@@ -108,4 +116,21 @@ nav a.nav-link {
   padding: .5rem;
   border-radius: .5rem;
   color: #1D262A;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+}
+
+.carousel-button:hover {
+  text-decoration: none;
+}
+
+.carousel-item {
+  height: 100vh;
+  max-height: 90rem;
+}
+
+.carousel-image {
+  object-fit: cover;
 }
