@@ -6,7 +6,9 @@ const About = () => {
         <div className="header-wrapper">
             <div className="main-info">
                 <h1 className="title">FULL STACK WEB DEVELOPER</h1>
-                <p>I am a current bootcamp student at Penn LPS coding bootcamp with experience working primarily with javascript to create front end, back end, and full stack applications.</p>
+                <p>
+                Creative and forward-thinking full stack web developer and designer fluent in Javascript and Node.js. Adaptable and driven with a strong work ethic and ability to thrive in team-based or individually motivated settings.
+                </p>
                 <img className="headshot" src={headshot} alt="my headshot" />
             </div>
         </div>

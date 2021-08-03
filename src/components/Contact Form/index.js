@@ -34,7 +34,6 @@ const ContactForm = () => {
 
     return (
         <div>
-            <p><i>This form is for grade requirement and is for display only</i></p>
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-container">
                     <div className="form-group row">

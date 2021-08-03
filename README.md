@@ -6,5 +6,6 @@ A webpage that displays information about me, some of my works, and ways to cont
 * Bootstrap
 * Javascript
 * CSS
+* Self-designed icons created with Sketchpad
 
 View the deployed application [here!](https://kesiahp18.github.io/react-portfolio/)

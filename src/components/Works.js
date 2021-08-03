@@ -8,9 +8,10 @@ import photo5 from "../images/project-5.png"
 const Works = () => {
     return (
         <div>
-            <h1 className="title">MY WORK</h1>
+            
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
+            <h1 className="title">MY WORK</h1>
             <div className="carousel-item active">
                 <div className="carousel-image">   
                     <img className="d-block w-100 carousel-image" src={photo1} alt="First slide"/>
@@ -39,16 +40,6 @@ const Works = () => {
                     <h5>My Movie Queue</h5>
                     <p><a href="https://glacial-headland-73425.herokuapp.com/" className="carousel-button" target="_blank">View Deployed Application</a></p>
                     <p><a href="https://github.com/kesiahp18/my-movie-queue/tree/master" className="carousel-button" target="_blank">View GitHub Repository</a></p>
-                </div>
-            </div>
-            <div className="carousel-item">
-                <a href="https://polar-castle-13167.herokuapp.com/" target="_blank">
-                    <img className="d-block w-100 carousel-image" src={photo4} alt="Fourth slide"/>
-                </a>
-                <div className="carousel-caption">
-                    <h5>Tech News</h5>
-                    <p><a href="" className="carousel-button" target="_blank">View Deployed Application</a></p>
-                    <p><a href="https://github.com/kesiahp18/just-tech-news" className="carousel-button" target="_blank">View GitHub Repository</a></p>
                 </div>
             </div>
             <div className="carousel-item">
