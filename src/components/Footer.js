@@ -9,11 +9,11 @@ const Footer = () => {
               <a className="contact-link" href="mailto:kesiahp18@gmail.com">EMAIL</a>
             </li>
             <li className="contact-method">
-              <a className="contact-link" href="https://github.com/kesiahp18" target="_blank"
+              <a className="contact-link" href="https://github.com/kesiahp18" target="_blank" rel="noreferrer" 
                 > GITHUB</a>
             </li>
             <li className="contact-method">
-              <a className="contact-link" href="https://www.linkedin.com/in/kesiah-patil-8444621b8/" target="_blank"
+              <a className="contact-link" href="https://www.linkedin.com/in/kesiah-patil-8444621b8/" target="_blank" rel="noreferrer"
                 > LINKEDIN</a>
             </li>
           </ul>

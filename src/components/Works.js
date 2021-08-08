@@ -2,66 +2,50 @@ import React from "react";
 import photo1 from "../images/project-1.png"
 import photo2 from "../images/project-2.jpg"
 import photo3 from "../images/project-3.png"
-import photo4 from "../images/project-4.jpg"
-import photo5 from "../images/project-5.png"
+import photo4 from "../images/project-4.png"
 
 const Works = () => {
     return (
         <div>
-            
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
             <h1 className="title">MY WORK</h1>
-            <div className="carousel-item active">
-                <div className="carousel-image">   
-                    <img className="d-block w-100 carousel-image" src={photo1} alt="First slide"/>
-                </div>
-                <div className="carousel-caption">
-                    <h5>My Wellness Journey</h5>
-                    <p><a href="https://my-wellness-journey.herokuapp.com/" className="carousel-button" target="_blank">View Deployed Application</a></p>
-                    <p><a href="https://github.com/Gintstir/My-Wellness-Journey" className="carousel-button" target="_blank">View GitHub Repository</a></p>
-                </div>
-            </div>
-            <div className="carousel-item">
-                <a href="https://akelstrom.github.io/taco-app/" target="_blank">
-                    <img className="d-block w-100 carousel-image" src={photo2} alt="Second slide"/>
+            {/* First Project - My Wellness Journey */}
+            <div className="image">  
+                <a href="https://my-wellness-journey.herokuapp.com/" target="_blank" rel="noreferrer">
+                    <img className="project-image" src={photo1} alt="First project"/>
                 </a>
-                <div className="carousel-caption">
-                    <h5>Taco App</h5>
-                    <p><a href="https://akelstrom.github.io/taco-app/" className="carousel-button" target="_blank">View Deployed Application</a></p>
-                    <p><a href="https://github.com/akelstrom/taco-app" className="carousel-button" target="_blank">View GitHub Repository</a></p>
-                </div>
             </div>
-            <div className="carousel-item">
-                <a href="https://glacial-headland-73425.herokuapp.com/" target="_blank">
-                    <img className="d-block w-100 carousel-image" src={photo3} alt="Third slide"/>
+            <div className="caption">
+                <h5 className="light-text">My Wellness Journey</h5>
+                <p className="light-background"><a href="https://my-wellness-journey.herokuapp.com/" className="project-button" target="_blank" rel="noreferrer">View Deployed Application</a></p>
+                <p className="light-background"><a href="https://github.com/Gintstir/My-Wellness-Journey" className="project-button" target="_blank" rel="noreferrer">View GitHub Repository</a></p>
+            </div>
+
+            {/* Second Project - Taco App */}
+
+            <div className="image"> 
+                <a href="https://akelstrom.github.io/taco-app/" target="_blank" rel="noreferrer">
+                    <img className="project-image" src={photo2} alt="Second project"/>
                 </a>
-                <div className="carousel-caption">
-                    <h5>My Movie Queue</h5>
-                    <p><a href="https://glacial-headland-73425.herokuapp.com/" className="carousel-button" target="_blank">View Deployed Application</a></p>
-                    <p><a href="https://github.com/kesiahp18/my-movie-queue/tree/master" className="carousel-button" target="_blank">View GitHub Repository</a></p>
-                </div>
             </div>
-            <div className="carousel-item">
-                <a href="https://positivity-portal.herokuapp.com/" target="_blank">
-                    <img className="d-block w-100 carousel-image" src={photo5} alt="Fifth slide"/>
+            <div className="caption">
+                <h5 className="light-text">Taco App</h5>
+                <p className="light-background"><a href="https://akelstrom.github.io/taco-app/" className="project-button" target="_blank" rel="noreferrer">View Deployed Application</a></p>
+                <p className="light-background"><a href="https://github.com/akelstrom/taco-app" className="project-button" target="_blank" rel="noreferrer">View GitHub Repository</a></p>
+            </div>
+            
+            {/* Third Project - Tech Blog */}
+
+            <div className="image"> 
+                <a href="https://akelstrom.github.io/taco-app/" target="_blank" rel="noreferrer">
+                    <img className="project-image" src={photo3} alt="Third project"/>
                 </a>
-                <div className="carousel-caption">
-                    <h5>Tech Blog</h5>
-                    <p><a href="https://positivity-portal.herokuapp.com/" className="carousel-button" target="_blank">View Deployed Application</a></p>
-                    <p><a href="https://github.com/kesiahp18/tech-blog" className="carousel-button" target="_blank">View GitHub Repository</a></p>
-                </div>
             </div>
+            <div className="caption">
+                <h5 className="light-text">Tech Blog</h5>
+                <p className="light-background"><a href="https://positivity-portal.herokuapp.com/" className="project-button" target="_blank" rel="noreferrer">View Deployed Application</a></p>
+                <p className="light-background"><a href="https://github.com/kesiahp18/tech-blog" className="project-button" target="_blank" rel="noreferrer">View GitHub Repository</a></p>
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only">Next</span>
-            </a>
-        </div>
+
     </div>
     )
 }

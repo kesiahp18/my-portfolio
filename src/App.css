@@ -18,6 +18,10 @@ body {
   width: 16.25rem;
 }
 
+.light-text {
+  color:#b3cde0;
+}
+
 /* Navigation Styles */
 
 nav {
@@ -69,20 +73,7 @@ nav a.nav-link {
 
 /* Works */
 
-.carousel-control-prev, .carousel-control-next {
-  background-color: #b3cde0;
-}
-
-.carousel-caption {
-  background-color: #1D262A;
-  border-radius: .5rem;
-}
-.carousel-caption h5 {
-  color:#b3cde0;
-}
-
-.carousel-button {
-  background-color: #b3cde0;
+.project-button {
   color: #1D262A;
   border-radius: .5rem;
   padding: .25rem;
@@ -122,7 +113,7 @@ nav a.nav-link {
   text-decoration: none;
 }
 
-.carousel-button:hover {
+.project-button:hover {
   text-decoration: none;
 }
 
@@ -131,6 +122,25 @@ nav a.nav-link {
   max-height: 90rem;
 }
 
-.carousel-image {
-  object-fit: cover;
+.project-image {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.caption {
+  text-align: center;
+  background-color: #1D262A;
+  padding: 1.5rem;
+  margin: auto;
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.light-background {
+  background: #b3cde0;
+  padding: .5rem;
+  border-radius: 1.5rem;
 }
