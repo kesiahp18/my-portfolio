@@ -79,47 +79,9 @@ nav a.nav-link {
   padding: .25rem;
 }
 
-/* Contact */
-
-/**/
-.footer-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-.contact {
-  margin-top: 5rem;
-  text-align: center;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-.contact-method {
-  margin: .75rem;
-}
-
-.contact-link {
-  background-color: #b3cde0;
-  padding: .5rem;
-  border-radius: .5rem;
-  color: #1D262A;
-}
-
-.contact-link:hover {
-  text-decoration: none;
-}
-
 .project-button:hover {
   text-decoration: none;
-}
-
-.carousel-item {
-  height: 100vh;
-  max-height: 90rem;
+  color: white;
 }
 
 .project-image {
@@ -143,4 +105,42 @@ nav a.nav-link {
   background: #b3cde0;
   padding: .5rem;
   border-radius: 1.5rem;
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* Contact */
+.contact {
+  margin-top: 5rem;
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-form {
+  margin: 2rem;
+}
+
+.contact-method {
+  margin: .75rem;
+}
+
+.contact-link {
+  background-color: #b3cde0;
+  padding: .5rem;
+  border-radius: .5rem;
+  color: #1D262A;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: white;
 }
